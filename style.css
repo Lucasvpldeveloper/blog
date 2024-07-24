@@ -67,17 +67,18 @@ div.quadrado {
 
 div#topo {
     color: #E07B67;
-    margin: 20px;
+    margin: 30px;
     font-size: 0.7em;
 }
 
 section > div.quadrado > h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: white;
-    margin: 20px;
+    margin: 30px;
 }
 
 section > div.quadrado > p {
     color: #9b9ba2;
-    margin: 20px;
+    margin: 30px;
+    font-size: 1.5em;
 }
