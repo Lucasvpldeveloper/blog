@@ -80,6 +80,6 @@ section > div.quadrado > h2 {
 section > div.quadrado > p {
     color: #9b9ba2;
     margin: 30px;
-    font-size: 1em;
+    font-size: 0.5em;
     overflow: hidden;
 }
