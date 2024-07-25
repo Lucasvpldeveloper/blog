@@ -9,7 +9,7 @@
 
 body {
     background-color: #121214;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -35,12 +35,17 @@ header > h1 > span {
     color: white;
 }
 
+span.material-icons {
+    color: #E07B67;
+}
+
 header > form > input[type=text] {
     background-color: #252529;
     padding: 10px;
     border-radius: 5px;
     width: 90vw;
     border: none;
+    color: white;
 }
 
 form > input::placeholder {
@@ -59,8 +64,10 @@ main {
 }
 
 div.quadrado {
-    width: 90vw;
+    width: 80vw;
     height: 400px;
+    margin: 40px;
+    padding: 10px;
     border: 1px solid #E07B67;
     border-radius: 10px;
 }
@@ -69,6 +76,11 @@ div#topo {
     color: #E07B67;
     margin: 30px;
     font-size: 0.7em;
+
+    display: flex;
+    align-items: baseline; /* Alinha os itens na mesma linha de base */
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 section > div.quadrado > h2 {
@@ -80,6 +92,5 @@ section > div.quadrado > h2 {
 section > div.quadrado > p {
     color: #9b9ba2;
     margin: 30px;
-    font-size: 0.5em;
-    overflow: hidden;
+    font-size: 1.2em;
 }
