@@ -18,7 +18,7 @@
     <main>
         <section>
             <div class="quadrado">
-                <div id="topo">17 de ago, 2024<span class="material-icons">favorite_border</span></div>
+                <div id="topo">17 de ago, 2024<span class="material-icons" id="rola" onclick="coracao()">favorite_border</span></div>
                 <h2>O que é linguagem de programação? Conheça as principais</h2>
                 <p>Uma das mais populares vertebtes da tecnologia da informação, a área de programação segue tendo muita demanda de trabalho justamente pela velocidade com que dispositivos tecnológicos vêm avançando.</p>
             </div>
@@ -32,6 +32,13 @@
                 <h2>Por que os hiperlinks são azuis em sua maioria?</h2>
                 <p>Quem navega na internet, certamente já percebeu que ela conta com diversos recursos para tornar a nossa vida mais fácil. Entre essas opções podemos mencionar os hiperlinks - Uma palavra ou termo clicável que direciona o leitor.</p>
             </div>  
+            <script>
+                function coracao() {
+                    var c = window.document.getElementById('rola')
+                    c.innerHTML = `<span class="material-icons">favorite</span>`
+
+                }
+            </script>
     </main>
 </body>
 </html>
