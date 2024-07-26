@@ -18,23 +18,32 @@
     <main>
         <section>
             <div class="quadrado">
-                <div id="topo">17 de ago, 2024<span class="material-icons" class="cora" onclick="coracao()">favorite_border</span></div>
+                <div id="topo">17 de ago, 2024<span class="material-icons" id="coracao1" onclick="coracao1()">favorite_border</span></div>
                 <h2>O que é linguagem de programação? Conheça as principais</h2>
                 <p>Uma das mais populares vertebtes da tecnologia da informação, a área de programação segue tendo muita demanda de trabalho justamente pela velocidade com que dispositivos tecnológicos vêm avançando.</p>
             </div>
             <div class="quadrado">
-                <div id="topo">17 de ago, 2024<span class="material-icons" class="cora" onclick="coracao()">favorite_border</span></div>
+                <div id="topo">17 de ago, 2024<span class="material-icons" id="coracao2" onclick="coracao2()">favorite_border</span></div>
                 <h2>GitHub agora permite fazer login sem precisar de senha</h2>
                 <p>O GitHub anunciou nesta quarta-feira (12) o acesso a partir das passkeys, método de autenticação sem senhas. A novidade está disponível em u ma versão beta pública e pode substituir a autenticação em dois fatores.</p>
             </div>
             <div class="quadrado">
-                <div id="topo">17 de ago, 2024<span class="material-icons" class="cora" onclick="coracao()">favorite_border</span></div>
+                <div id="topo">17 de ago, 2024<span class="material-icons" id="coracao3" onclick="coracao3()">favorite_border</span></div>
                 <h2>Por que os hiperlinks são azuis em sua maioria?</h2>
                 <p>Quem navega na internet, certamente já percebeu que ela conta com diversos recursos para tornar a nossa vida mais fácil. Entre essas opções podemos mencionar os hiperlinks - Uma palavra ou termo clicável que direciona o leitor.</p>
             </div>  
             <script>
-                function coracao() {
-                    var c = window.document.getElementsByClassName('cora')
+                function coracao1() {
+                    var c = window.document.getElementById('coracao1')
+                    c.innerHTML = `<span class="material-icons">favorite</span>`
+
+                }
+                function coracao2() {
+                    var c = window.document.getElementById('coracao2')
+                    c.innerHTML = `<span class="material-icons">favorite</span>`
+                }
+                function coracao3() {
+                    var c = window.document.getElementById('coracao3')
                     c.innerHTML = `<span class="material-icons">favorite</span>`
 
                 }
